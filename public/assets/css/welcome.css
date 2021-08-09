@@ -1,0 +1,22 @@
+*{
+    font-family: Montserrat;
+}
+.container{
+    height: 100vh;
+}
+.navbar{
+    font-weight: bold;
+}
+.navbar-brand{
+    color: #A098C9!important;
+}
+.text-content{
+    line-height: 40px;
+}
+.text-content h2{
+    color: #A098C9;
+    font-size: 62px;
+}
+.navbar-toggler:focus{    
+    outline: none;
+}

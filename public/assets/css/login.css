@@ -1,0 +1,50 @@
+*{
+    font-family: Montserrat;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -225px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 450px; 
+    height: auto;
+    margin-top: -300px;
+}
+.card-title{
+    color: #A098C9;
+    font-weight: bold;
+}
+.btn{
+    background-color: #A098C9;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: #A098C9;
+    border-color: #A098C9;
+}
+.form-control{
+    background-color: #fafafa;
+}
+a[href]:hover{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 500px) {
+    body{
+        width: auto;
+        height: auto;
+    }
+    .box{
+        width: 350px;
+        height: auto;
+        position: static;
+        margin: 50px auto;
+    }
+}
